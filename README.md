@@ -29,7 +29,7 @@ run main.py in IDE or with command line:
 python main.py
 ```
 
-NOTE :   
+## Parameter settings   
 (1) the duration of training and testing depends on the running environment.  
 (2) set model hyperparameters on ./conf/APTE.properties  
 (3) set NeuRec parameters on ./Net.properties  
