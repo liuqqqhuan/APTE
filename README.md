@@ -10,7 +10,7 @@ The code has been tested running under Python 3.8.0. The required packages are a
 * scipy == 1.3.1
 * pandas == 0.17
 
-## C++ evaluator
+## C++ evaluator(换成运行的步骤)
 We have implemented C++ code to output metrics during and after training, which is much more efficient than python evaluator. It needs to be compiled first using the following command. 
 ```
 python setup.py build_ext --inplace
