@@ -32,7 +32,7 @@ python main.py
 NOTE :   
 (1) the duration of training and testing depends on the running environment.  
 (2) set model hyperparameters on ./conf/APTE.properties  
-(3) set NeuRec parameters on ./NeuRec.properties  
+(3) set NeuRec parameters on ./Net.properties  
 (4) the log file save at ./log/yelp_gat/  
 
 ## Dataset
