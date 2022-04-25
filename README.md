@@ -33,12 +33,12 @@ python main.py
 (1) the duration of training and testing depends on the running environment.  
 (2) set model hyperparameters on ./conf/APTE.properties  
 (3) set Recommender parameters on ./Net.properties  
-(4) the log file save at ./log/yelp_gat/  
+(4) the log file save at ./log/epinion_gat1/  
 
 ## Dataset
 We provide Epinions and Yelp dataset.
-  * ./dataset/epinion.rating and epinion_gat.uu
-  * ./dataset/yelp_gat.rating and yelp_gat.uu
+  * ./dataset/epinion.rating and epinion_gat1.uu
+  * ./dataset/yelp_gat.rating and yelp_gat1.uu
   * Each line is a user with her/his positive interactions with items: userID \ itemID \ ratings .
   * Each user has more than 10 associated actions.
 
