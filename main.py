@@ -6,7 +6,7 @@ import importlib
 from data.dataset import Dataset
 from util import Configurator, tool
 
-np.random.seed(2021)
+np.random.seed(2021)#set random num
 random.seed(2021)
 tf.compat.v1.set_random_seed(2020)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
